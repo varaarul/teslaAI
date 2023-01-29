@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "prajjwal1/bert-tiny",
+  "_name_or_path": "unified_dialogue_and_faq_model",
   "architectures": [
     "BertModel"
   ],
