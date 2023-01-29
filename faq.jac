@@ -1,4 +1,4 @@
-//import {node::cai_state} with "./tesla_ai/jac"
+import {node::cai_state} with "./tesla_ai/jac"
 
 node faq_root:cai_state {
     can use.qa_classify;
