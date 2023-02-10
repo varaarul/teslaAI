@@ -1,3 +1,5 @@
+import {*} with "./ai_model.jac";
+
 node cai_state {
     has name;
     can init_wlk_ctx {
@@ -52,7 +54,9 @@ node dialogue_state:cai_state {
         }
     }
 
-    
+    can process {}
+
+
     can nlu {}
     
     can nlg {}
@@ -220,5 +224,7 @@ walker talk {
         }
     }
 }
+
+
 
 
